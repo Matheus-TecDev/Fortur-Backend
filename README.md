@@ -1,61 +1,83 @@
-🧩 Site Fortur – Backend
+## 🗃️ Site Fortur – Frontend
 
-📖 Descrição
+## 📖 Descrição
 
-O backend do Site Fortur foi iniciado em Node.js + Express, com o objetivo de dar suporte ao formulário de contato do site e enviar mensagens via Nodemailer.
+O Site Fortur – Frontend é um projeto desenvolvido em React (Create React App) com o objetivo de ser a versão institucional da Fortur.
 
-⚠️ Aviso Importante: Este backend está em estado extremamente inicial, cheio de limitações e sem estrutura adequada para produção.
-Não recomendamos clonar ou usar neste estágio, pois faltam recursos básicos como autenticação, banco de dados e tratamento de erros.
+⚠️ Aviso Importante: Este projeto está em estado extremamente inicial e cheio de erros.
+Não recomendamos clonar ou utilizar nesta fase, pois ainda faltam ajustes básicos, responsividade, organização de código e páginas complementares.
 
-⚡ Funcionalidades (atuais)
-
-Servidor mínimo em Express.
-
-Rota básica de envio de mensagens.
-
-Integração inicial com Nodemailer.
+O projeto será futuramente atualizado para Vite, com melhorias de performance e estrutura.
 
 ---
 
-📚 Conceitos praticados
+## 🎮 Preview
 
-Estruturação inicial de servidor em Node.js.
+(Preview ainda não configurado por estar incompleto)
 
-Consumo de requisições HTTP (POST).
+👉 Deploy na Vercel
+ (em breve)
+ 
+---
+ 
+ ## 🔗 Repositórios Relacionados
 
-Envio de e-mails com SMTP via Nodemailer.
+- [Frontend (este repositório)](https://github.com/Matheus-TecDev/Fortur.git)
+- [Backend (API)](https://github.com/Matheus-TecDev/Fortur-Backend.git)
 
 ---
 
-🛠️ Tecnologias
+## ⚡ Funcionalidades (atuais)
 
-Node.js
+Estrutura inicial em Create React App.
 
-Express
+Primeiras páginas institucionais criadas.
 
-Nodemailer
-
----
-
-🚧 Status Atual
-
-Backend incompleto e instável.
-
-Apenas a integração mínima com Nodemailer está implementada.
-
-Não há autenticação, banco de dados ou logs adequados.
-
-Estrutura sujeita a mudanças profundas.
+Importação de assets básicos (favicons e imagens).
 
 ---
 
-📌 Roadmap (melhorias futuras)
+## 📚 Conceitos praticados
 
-Implementar banco de dados para registro das mensagens.
+Configuração inicial de projeto em CRA.
 
-Adicionar autenticação e middleware de segurança.
+Estruturação básica de componentes React.
 
-Melhorar tratamento de erros e logs.
+Organização inicial de assets públicos.
+
+---
+
+## 🛠️ Tecnologias
+
+React (Create React App)
+
+---
+
+## 🚧 Status Atual
+
+Projeto incompleto e instável.
+
+Diversos erros de configuração e execução.
+
+Poucas páginas implementadas.
+
+Sem responsividade.
+
+---
+
+## 📌 Roadmaps
+
+Finalizar páginas institucionais.
+
+Corrigir erros atuais de build e execução.
+
+Implementar responsividade completa.
+
+Migrar de CRA → Vite.
+
+Melhorar performance e SEO.
+
+Publicar versão estável no Vercel.
 
 ---
 
@@ -63,4 +85,5 @@ Melhorar tratamento de erros e logs.
 
 - [Matheus Freire](https://github.com/Matheus-TecDev)  
 - [LinkedIn](https://www.linkedin.com/in/matheus-freire-martins-da-costa-318622376/)  
-📫 Contato: matheus.tecnodev@gmail.com
+
+📫 Contato: [matheus.tecnodev@gmail.com](mailto:matheus.tecnodev@gmail.com)
