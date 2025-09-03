@@ -1,83 +1,70 @@
-## 🗃️ Site Fortur – Frontend
+## 🗃️ Site Fortur – Backend
 
 ## 📖 Descrição
 
-O Site Fortur – Frontend é um projeto desenvolvido em React (Create React App) com o objetivo de ser a versão institucional da Fortur.
+O backend do Site Fortur foi iniciado em Node.js + Express, com o objetivo de dar suporte ao formulário de contato do site e enviar mensagens via Nodemailer.
 
-⚠️ Aviso Importante: Este projeto está em estado extremamente inicial e cheio de erros.
-Não recomendamos clonar ou utilizar nesta fase, pois ainda faltam ajustes básicos, responsividade, organização de código e páginas complementares.
-
-O projeto será futuramente atualizado para Vite, com melhorias de performance e estrutura.
+⚠️ Aviso Importante: Este backend está em estado extremamente inicial, cheio de limitações e sem estrutura adequada para produção.
+Não recomendamos clonar ou usar neste estágio, pois faltam recursos básicos como autenticação, banco de dados e tratamento de erros.
 
 ---
 
-## 🎮 Preview
+## 🔗 Repositórios Relacionados
 
-(Preview ainda não configurado por estar incompleto)
-
-👉 Deploy na Vercel
- (em breve)
- 
----
- 
- ## 🔗 Repositórios Relacionados
-
-- [Frontend (este repositório)](https://github.com/Matheus-TecDev/Fortur.git)
-- [Backend (API)](https://github.com/Matheus-TecDev/Fortur-Backend.git)
+- [Backend (este repositório)](https://github.com/Matheus-TecDev/Fortur-Backend.git)
+- [Frontend](https://github.com/Matheus-TecDev/Fortur.git)
 
 ---
 
 ## ⚡ Funcionalidades (atuais)
 
-Estrutura inicial em Create React App.
+Servidor mínimo em Express.
 
-Primeiras páginas institucionais criadas.
+Rota básica de envio de mensagens.
 
-Importação de assets básicos (favicons e imagens).
+Integração inicial com Nodemailer.
 
 ---
 
 ## 📚 Conceitos praticados
 
-Configuração inicial de projeto em CRA.
+Estruturação inicial de servidor em Node.js.
 
-Estruturação básica de componentes React.
+Consumo de requisições HTTP (POST).
 
-Organização inicial de assets públicos.
+Envio de e-mails com SMTP via Nodemailer.
 
 ---
 
 ## 🛠️ Tecnologias
 
-React (Create React App)
+Node.js
+
+Express
+
+Nodemailer
 
 ---
 
 ## 🚧 Status Atual
 
-Projeto incompleto e instável.
+Backend incompleto e instável.
 
-Diversos erros de configuração e execução.
+Apenas a integração mínima com Nodemailer está implementada.
 
-Poucas páginas implementadas.
+Não há autenticação, banco de dados ou logs adequados.
 
-Sem responsividade.
+Estrutura sujeita a mudanças profundas.
 
 ---
 
-## 📌 Roadmaps
+## 📌 Roadmap (melhorias futuras)
 
-Finalizar páginas institucionais.
+Implementar banco de dados para registro das mensagens.
 
-Corrigir erros atuais de build e execução.
+Adicionar autenticação e middleware de segurança.
 
-Implementar responsividade completa.
-
-Migrar de CRA → Vite.
-
-Melhorar performance e SEO.
-
-Publicar versão estável no Vercel.
+Melhorar tratamento de erros e logs.
 
 ---
 
